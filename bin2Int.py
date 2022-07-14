@@ -1,4 +1,4 @@
-def bin2Int(n):
+def bin2Dec(n):
 	n = str(n)
 	ans = 0
 	c = len(n) - 1
@@ -8,4 +8,4 @@ def bin2Int(n):
 	return ans
 ##test
 binary = 10100
-print(bin2Int(binary))
+print(bin2Dec(binary))
